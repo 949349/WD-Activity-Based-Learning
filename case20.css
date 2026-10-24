@@ -1,0 +1,54 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    text-align: center;
+}
+
+nav {
+    background: brown;
+    padding: 15px;
+    color: white;
+}
+
+nav a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+}
+
+.hero {
+    padding: 70px;
+    background: #ffe0b2;
+}
+
+button {
+    padding: 10px 20px;
+    background: brown;
+    color: white;
+    border: 0;
+}
+
+.card {
+    display: inline-block;
+    width: 25%;
+    margin: 15px;
+    padding: 20px;
+    background: #fff0e0;
+    border-radius: 10px;
+}
+
+section {
+    padding: 30px;
+}
+
+footer {
+    background: brown;
+    color: white;
+    padding: 15px;
+}
+
+@media(max-width:600px) {
+    .card {
+        width: 80%;
+    }
+}
